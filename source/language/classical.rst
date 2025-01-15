@@ -321,9 +321,10 @@ accessible after the loop.
 
    // loop over every even integer from 0 to 20 using a range, and call a
    // subroutine with that value.
-   for int i in [0:2:20]
+   for int i in [0:2:20] {
       subroutine(i);
-
+   }
+   
    // high precision typed loop variable
    for uint[64] i in [4294967296:4294967306] {
       // do something
